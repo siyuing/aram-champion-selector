@@ -2,9 +2,9 @@
   "name": "aram-champion-selector",
   "version": "1.0.0",
   "main": "index.js",
-"scripts": {
-  "start": "node src/server.js"
-},
+  "scripts": {
+    "start": "node src/server.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -12,6 +12,7 @@
   "dependencies": {
     "axios": "^1.7.4",
     "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
     "express": "^4.19.2",
     "node-fetch": "^2.7.0"
   }
