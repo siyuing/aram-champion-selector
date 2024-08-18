@@ -1,0 +1,1010 @@
+[
+  {
+    "id": "Aatrox",
+    "name": "エイトロックス",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Aatrox.png",
+    "isMelee": true
+  },
+  {
+    "id": "Ahri",
+    "name": "アーリ",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Ahri.png",
+    "isMelee": false
+  },
+  {
+    "id": "Akali",
+    "name": "アカリ",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Akali.png",
+    "isMelee": true
+  },
+  {
+    "id": "Akshan",
+    "name": "アクシャン",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Akshan.png",
+    "isMelee": false
+  },
+  {
+    "id": "Alistar",
+    "name": "アリスター",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Alistar.png",
+    "isMelee": true
+  },
+  {
+    "id": "Amumu",
+    "name": "アムム",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Amumu.png",
+    "isMelee": true
+  },
+  {
+    "id": "Anivia",
+    "name": "アニビア",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Anivia.png",
+    "isMelee": false
+  },
+  {
+    "id": "Annie",
+    "name": "アニー",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Annie.png",
+    "isMelee": false
+  },
+  {
+    "id": "Aphelios",
+    "name": "アフェリオス",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Aphelios.png",
+    "isMelee": false
+  },
+  {
+    "id": "Ashe",
+    "name": "アッシュ",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Ashe.png",
+    "isMelee": false
+  },
+  {
+    "id": "AurelionSol",
+    "name": "オレリオン・ソル",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/AurelionSol.png",
+    "isMelee": false
+  },
+  {
+    "id": "Aurora",
+    "name": "オーロラ",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Aurora.png",
+    "isMelee": false
+  },
+  {
+    "id": "Azir",
+    "name": "アジール",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Azir.png",
+    "isMelee": false
+  },
+  {
+    "id": "Bard",
+    "name": "バード",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Bard.png",
+    "isMelee": false
+  },
+  {
+    "id": "Belveth",
+    "name": "ベル＝ヴェス",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Belveth.png",
+    "isMelee": true
+  },
+  {
+    "id": "Blitzcrank",
+    "name": "ブリッツクランク",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Blitzcrank.png",
+    "isMelee": true
+  },
+  {
+    "id": "Brand",
+    "name": "ブランド",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Brand.png",
+    "isMelee": false
+  },
+  {
+    "id": "Braum",
+    "name": "ブラウム",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Braum.png",
+    "isMelee": true
+  },
+  {
+    "id": "Briar",
+    "name": "ブライアー",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Briar.png",
+    "isMelee": true
+  },
+  {
+    "id": "Caitlyn",
+    "name": "ケイトリン",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Caitlyn.png",
+    "isMelee": false
+  },
+  {
+    "id": "Camille",
+    "name": "カミール",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Camille.png",
+    "isMelee": true
+  },
+  {
+    "id": "Cassiopeia",
+    "name": "カシオペア",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Cassiopeia.png",
+    "isMelee": false
+  },
+  {
+    "id": "Chogath",
+    "name": "チョ＝ガス",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Chogath.png",
+    "isMelee": true
+  },
+  {
+    "id": "Corki",
+    "name": "コーキ",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Corki.png",
+    "isMelee": false
+  },
+  {
+    "id": "Darius",
+    "name": "ダリウス",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Darius.png",
+    "isMelee": true
+  },
+  {
+    "id": "Diana",
+    "name": "ダイアナ",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Diana.png",
+    "isMelee": true
+  },
+  {
+    "id": "Draven",
+    "name": "ドレイヴン",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Draven.png",
+    "isMelee": false
+  },
+  {
+    "id": "DrMundo",
+    "name": "ドクター・ムンド",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/DrMundo.png",
+    "isMelee": true
+  },
+  {
+    "id": "Ekko",
+    "name": "エコー",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Ekko.png",
+    "isMelee": true
+  },
+  {
+    "id": "Elise",
+    "name": "エリス",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Elise.png",
+    "isMelee": false
+  },
+  {
+    "id": "Evelynn",
+    "name": "イブリン",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Evelynn.png",
+    "isMelee": true
+  },
+  {
+    "id": "Ezreal",
+    "name": "エズリアル",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Ezreal.png",
+    "isMelee": false
+  },
+  {
+    "id": "Fiddlesticks",
+    "name": "フィドルスティックス",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Fiddlesticks.png",
+    "isMelee": false
+  },
+  {
+    "id": "Fiora",
+    "name": "フィオラ",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Fiora.png",
+    "isMelee": true
+  },
+  {
+    "id": "Fizz",
+    "name": "フィズ",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Fizz.png",
+    "isMelee": true
+  },
+  {
+    "id": "Galio",
+    "name": "ガリオ",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Galio.png",
+    "isMelee": true
+  },
+  {
+    "id": "Gangplank",
+    "name": "ガングプランク",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Gangplank.png",
+    "isMelee": true
+  },
+  {
+    "id": "Garen",
+    "name": "ガレン",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Garen.png",
+    "isMelee": true
+  },
+  {
+    "id": "Gnar",
+    "name": "ナー",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Gnar.png",
+    "isMelee": true
+  },
+  {
+    "id": "Gragas",
+    "name": "グラガス",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Gragas.png",
+    "isMelee": true
+  },
+  {
+    "id": "Graves",
+    "name": "グレイブス",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Graves.png",
+    "isMelee": false
+  },
+  {
+    "id": "Gwen",
+    "name": "グウェン",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Gwen.png",
+    "isMelee": true
+  },
+  {
+    "id": "Hecarim",
+    "name": "ヘカリム",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Hecarim.png",
+    "isMelee": true
+  },
+  {
+    "id": "Heimerdinger",
+    "name": "ハイマーディンガー",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Heimerdinger.png",
+    "isMelee": false
+  },
+  {
+    "id": "Hwei",
+    "name": "フェイ",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Hwei.png",
+    "isMelee": false
+  },
+  {
+    "id": "Illaoi",
+    "name": "イラオイ",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Illaoi.png",
+    "isMelee": true
+  },
+  {
+    "id": "Irelia",
+    "name": "イレリア",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Irelia.png",
+    "isMelee": true
+  },
+  {
+    "id": "Ivern",
+    "name": "アイバーン",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Ivern.png",
+    "isMelee": false
+  },
+  {
+    "id": "Janna",
+    "name": "ジャンナ",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Janna.png",
+    "isMelee": false
+  },
+  {
+    "id": "JarvanIV",
+    "name": "ジャーヴァンⅣ",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/JarvanIV.png",
+    "isMelee": true
+  },
+  {
+    "id": "Jax",
+    "name": "ジャックス",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Jax.png",
+    "isMelee": true
+  },
+  {
+    "id": "Jayce",
+    "name": "ジェイス",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Jayce.png",
+    "isMelee": true
+  },
+  {
+    "id": "Jhin",
+    "name": "ジン",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Jhin.png",
+    "isMelee": false
+  },
+  {
+    "id": "Jinx",
+    "name": "ジンクス",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Jinx.png",
+    "isMelee": false
+  },
+  {
+    "id": "Kaisa",
+    "name": "カイ＝サ",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Kaisa.png",
+    "isMelee": false
+  },
+  {
+    "id": "Kalista",
+    "name": "カリスタ",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Kalista.png",
+    "isMelee": false
+  },
+  {
+    "id": "Karma",
+    "name": "カルマ",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Karma.png",
+    "isMelee": false
+  },
+  {
+    "id": "Karthus",
+    "name": "カーサス",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Karthus.png",
+    "isMelee": false
+  },
+  {
+    "id": "Kassadin",
+    "name": "カサディン",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Kassadin.png",
+    "isMelee": true
+  },
+  {
+    "id": "Katarina",
+    "name": "カタリナ",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Katarina.png",
+    "isMelee": true
+  },
+  {
+    "id": "Kayle",
+    "name": "ケイル",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Kayle.png",
+    "isMelee": true
+  },
+  {
+    "id": "Kayn",
+    "name": "ケイン",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Kayn.png",
+    "isMelee": true
+  },
+  {
+    "id": "Kennen",
+    "name": "ケネン",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Kennen.png",
+    "isMelee": false
+  },
+  {
+    "id": "Khazix",
+    "name": "カ＝ジックス",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Khazix.png",
+    "isMelee": true
+  },
+  {
+    "id": "Kindred",
+    "name": "キンドレッド",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Kindred.png",
+    "isMelee": false
+  },
+  {
+    "id": "Kled",
+    "name": "クレッド",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Kled.png",
+    "isMelee": true
+  },
+  {
+    "id": "KogMaw",
+    "name": "コグ＝マウ",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/KogMaw.png",
+    "isMelee": false
+  },
+  {
+    "id": "KSante",
+    "name": "カ・サンテ",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/KSante.png",
+    "isMelee": true
+  },
+  {
+    "id": "Leblanc",
+    "name": "ルブラン",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Leblanc.png",
+    "isMelee": false
+  },
+  {
+    "id": "LeeSin",
+    "name": "リー・シン",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/LeeSin.png",
+    "isMelee": true
+  },
+  {
+    "id": "Leona",
+    "name": "レオナ",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Leona.png",
+    "isMelee": true
+  },
+  {
+    "id": "Lillia",
+    "name": "リリア",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Lillia.png",
+    "isMelee": false
+  },
+  {
+    "id": "Lissandra",
+    "name": "リサンドラ",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Lissandra.png",
+    "isMelee": false
+  },
+  {
+    "id": "Lucian",
+    "name": "ルシアン",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Lucian.png",
+    "isMelee": false
+  },
+  {
+    "id": "Lulu",
+    "name": "ルル",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Lulu.png",
+    "isMelee": false
+  },
+  {
+    "id": "Lux",
+    "name": "ラックス",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Lux.png",
+    "isMelee": false
+  },
+  {
+    "id": "Malphite",
+    "name": "マルファイト",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Malphite.png",
+    "isMelee": true
+  },
+  {
+    "id": "Malzahar",
+    "name": "マルザハール",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Malzahar.png",
+    "isMelee": false
+  },
+  {
+    "id": "Maokai",
+    "name": "マオカイ",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Maokai.png",
+    "isMelee": true
+  },
+  {
+    "id": "MasterYi",
+    "name": "マスター・イー",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/MasterYi.png",
+    "isMelee": true
+  },
+  {
+    "id": "Milio",
+    "name": "ミリオ",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Milio.png",
+    "isMelee": false
+  },
+  {
+    "id": "MissFortune",
+    "name": "ミス・フォーチュン",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/MissFortune.png",
+    "isMelee": false
+  },
+  {
+    "id": "MonkeyKing",
+    "name": "ウーコン",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/MonkeyKing.png",
+    "isMelee": true
+  },
+  {
+    "id": "Mordekaiser",
+    "name": "モルデカイザー",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Mordekaiser.png",
+    "isMelee": true
+  },
+  {
+    "id": "Morgana",
+    "name": "モルガナ",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Morgana.png",
+    "isMelee": false
+  },
+  {
+    "id": "Naafiri",
+    "name": "ナフィーリ",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Naafiri.png",
+    "isMelee": true
+  },
+  {
+    "id": "Nami",
+    "name": "ナミ",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Nami.png",
+    "isMelee": false
+  },
+  {
+    "id": "Nasus",
+    "name": "ナサス",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Nasus.png",
+    "isMelee": true
+  },
+  {
+    "id": "Nautilus",
+    "name": "ノーチラス",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Nautilus.png",
+    "isMelee": true
+  },
+  {
+    "id": "Neeko",
+    "name": "ニーコ",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Neeko.png",
+    "isMelee": false
+  },
+  {
+    "id": "Nidalee",
+    "name": "ニダリー",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Nidalee.png",
+    "isMelee": false
+  },
+  {
+    "id": "Nilah",
+    "name": "ニーラ",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Nilah.png",
+    "isMelee": true
+  },
+  {
+    "id": "Nocturne",
+    "name": "ノクターン",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Nocturne.png",
+    "isMelee": true
+  },
+  {
+    "id": "Nunu",
+    "name": "ヌヌ＆ウィルンプ",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Nunu.png",
+    "isMelee": true
+  },
+  {
+    "id": "Olaf",
+    "name": "オラフ",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Olaf.png",
+    "isMelee": true
+  },
+  {
+    "id": "Orianna",
+    "name": "オリアナ",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Orianna.png",
+    "isMelee": false
+  },
+  {
+    "id": "Ornn",
+    "name": "オーン",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Ornn.png",
+    "isMelee": true
+  },
+  {
+    "id": "Pantheon",
+    "name": "パンテオン",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Pantheon.png",
+    "isMelee": true
+  },
+  {
+    "id": "Poppy",
+    "name": "ポッピー",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Poppy.png",
+    "isMelee": true
+  },
+  {
+    "id": "Pyke",
+    "name": "パイク",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Pyke.png",
+    "isMelee": true
+  },
+  {
+    "id": "Qiyana",
+    "name": "キヤナ",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Qiyana.png",
+    "isMelee": true
+  },
+  {
+    "id": "Quinn",
+    "name": "クイン",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Quinn.png",
+    "isMelee": false
+  },
+  {
+    "id": "Rakan",
+    "name": "ラカン",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Rakan.png",
+    "isMelee": false
+  },
+  {
+    "id": "Rammus",
+    "name": "ラムス",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Rammus.png",
+    "isMelee": true
+  },
+  {
+    "id": "RekSai",
+    "name": "レク＝サイ",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/RekSai.png",
+    "isMelee": true
+  },
+  {
+    "id": "Rell",
+    "name": "レル",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Rell.png",
+    "isMelee": true
+  },
+  {
+    "id": "Renata",
+    "name": "レナータ・グラスク",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Renata.png",
+    "isMelee": false
+  },
+  {
+    "id": "Renekton",
+    "name": "レネクトン",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Renekton.png",
+    "isMelee": true
+  },
+  {
+    "id": "Rengar",
+    "name": "レンガー",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Rengar.png",
+    "isMelee": true
+  },
+  {
+    "id": "Riven",
+    "name": "リヴェン",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Riven.png",
+    "isMelee": true
+  },
+  {
+    "id": "Rumble",
+    "name": "ランブル",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Rumble.png",
+    "isMelee": true
+  },
+  {
+    "id": "Ryze",
+    "name": "ライズ",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Ryze.png",
+    "isMelee": false
+  },
+  {
+    "id": "Samira",
+    "name": "サミーラ",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Samira.png",
+    "isMelee": false
+  },
+  {
+    "id": "Sejuani",
+    "name": "セジュアニ",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Sejuani.png",
+    "isMelee": true
+  },
+  {
+    "id": "Senna",
+    "name": "セナ",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Senna.png",
+    "isMelee": false
+  },
+  {
+    "id": "Seraphine",
+    "name": "セラフィーン",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Seraphine.png",
+    "isMelee": false
+  },
+  {
+    "id": "Sett",
+    "name": "セト",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Sett.png",
+    "isMelee": true
+  },
+  {
+    "id": "Shaco",
+    "name": "シャコ",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Shaco.png",
+    "isMelee": true
+  },
+  {
+    "id": "Shen",
+    "name": "シェン",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Shen.png",
+    "isMelee": true
+  },
+  {
+    "id": "Shyvana",
+    "name": "シヴァーナ",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Shyvana.png",
+    "isMelee": true
+  },
+  {
+    "id": "Singed",
+    "name": "シンジド",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Singed.png",
+    "isMelee": true
+  },
+  {
+    "id": "Sion",
+    "name": "サイオン",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Sion.png",
+    "isMelee": true
+  },
+  {
+    "id": "Sivir",
+    "name": "シヴィア",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Sivir.png",
+    "isMelee": false
+  },
+  {
+    "id": "Skarner",
+    "name": "スカーナー",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Skarner.png",
+    "isMelee": true
+  },
+  {
+    "id": "Smolder",
+    "name": "スモルダー",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Smolder.png",
+    "isMelee": false
+  },
+  {
+    "id": "Sona",
+    "name": "ソナ",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Sona.png",
+    "isMelee": false
+  },
+  {
+    "id": "Soraka",
+    "name": "ソラカ",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Soraka.png",
+    "isMelee": false
+  },
+  {
+    "id": "Swain",
+    "name": "スウェイン",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Swain.png",
+    "isMelee": false
+  },
+  {
+    "id": "Sylas",
+    "name": "サイラス",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Sylas.png",
+    "isMelee": true
+  },
+  {
+    "id": "Syndra",
+    "name": "シンドラ",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Syndra.png",
+    "isMelee": false
+  },
+  {
+    "id": "TahmKench",
+    "name": "タム・ケンチ",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/TahmKench.png",
+    "isMelee": true
+  },
+  {
+    "id": "Taliyah",
+    "name": "タリヤ",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Taliyah.png",
+    "isMelee": false
+  },
+  {
+    "id": "Talon",
+    "name": "タロン",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Talon.png",
+    "isMelee": true
+  },
+  {
+    "id": "Taric",
+    "name": "タリック",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Taric.png",
+    "isMelee": true
+  },
+  {
+    "id": "Teemo",
+    "name": "ティーモ",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Teemo.png",
+    "isMelee": false
+  },
+  {
+    "id": "Thresh",
+    "name": "スレッシュ",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Thresh.png",
+    "isMelee": false
+  },
+  {
+    "id": "Tristana",
+    "name": "トリスターナ",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Tristana.png",
+    "isMelee": false
+  },
+  {
+    "id": "Trundle",
+    "name": "トランドル",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Trundle.png",
+    "isMelee": true
+  },
+  {
+    "id": "Tryndamere",
+    "name": "トリンダメア",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Tryndamere.png",
+    "isMelee": true
+  },
+  {
+    "id": "TwistedFate",
+    "name": "ツイステッド・フェイト",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/TwistedFate.png",
+    "isMelee": false
+  },
+  {
+    "id": "Twitch",
+    "name": "トゥイッチ",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Twitch.png",
+    "isMelee": false
+  },
+  {
+    "id": "Udyr",
+    "name": "ウディア",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Udyr.png",
+    "isMelee": true
+  },
+  {
+    "id": "Urgot",
+    "name": "アーゴット",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Urgot.png",
+    "isMelee": false
+  },
+  {
+    "id": "Varus",
+    "name": "ヴァルス",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Varus.png",
+    "isMelee": false
+  },
+  {
+    "id": "Vayne",
+    "name": "ヴェイン",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Vayne.png",
+    "isMelee": false
+  },
+  {
+    "id": "Veigar",
+    "name": "ベイガー",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Veigar.png",
+    "isMelee": false
+  },
+  {
+    "id": "Velkoz",
+    "name": "ヴェル＝コズ",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Velkoz.png",
+    "isMelee": false
+  },
+  {
+    "id": "Vex",
+    "name": "ヴェックス",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Vex.png",
+    "isMelee": false
+  },
+  {
+    "id": "Vi",
+    "name": "ヴァイ",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Vi.png",
+    "isMelee": true
+  },
+  {
+    "id": "Viego",
+    "name": "ヴィエゴ",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Viego.png",
+    "isMelee": true
+  },
+  {
+    "id": "Viktor",
+    "name": "ビクター",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Viktor.png",
+    "isMelee": false
+  },
+  {
+    "id": "Vladimir",
+    "name": "ブラッドミア",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Vladimir.png",
+    "isMelee": false
+  },
+  {
+    "id": "Volibear",
+    "name": "ボリベア",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Volibear.png",
+    "isMelee": true
+  },
+  {
+    "id": "Warwick",
+    "name": "ワーウィック",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Warwick.png",
+    "isMelee": true
+  },
+  {
+    "id": "Xayah",
+    "name": "ザヤ",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Xayah.png",
+    "isMelee": false
+  },
+  {
+    "id": "Xerath",
+    "name": "ゼラス",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Xerath.png",
+    "isMelee": false
+  },
+  {
+    "id": "XinZhao",
+    "name": "シン・ジャオ",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/XinZhao.png",
+    "isMelee": true
+  },
+  {
+    "id": "Yasuo",
+    "name": "ヤスオ",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Yasuo.png",
+    "isMelee": true
+  },
+  {
+    "id": "Yone",
+    "name": "ヨネ",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Yone.png",
+    "isMelee": true
+  },
+  {
+    "id": "Yorick",
+    "name": "ヨリック",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Yorick.png",
+    "isMelee": true
+  },
+  {
+    "id": "Yuumi",
+    "name": "ユーミ",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Yuumi.png",
+    "isMelee": false
+  },
+  {
+    "id": "Zac",
+    "name": "ザック",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Zac.png",
+    "isMelee": true
+  },
+  {
+    "id": "Zed",
+    "name": "ゼド",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Zed.png",
+    "isMelee": true
+  },
+  {
+    "id": "Zeri",
+    "name": "ゼリ",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Zeri.png",
+    "isMelee": false
+  },
+  {
+    "id": "Ziggs",
+    "name": "ジグス",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Ziggs.png",
+    "isMelee": false
+  },
+  {
+    "id": "Zilean",
+    "name": "ジリアン",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Zilean.png",
+    "isMelee": false
+  },
+  {
+    "id": "Zoe",
+    "name": "ゾーイ",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Zoe.png",
+    "isMelee": false
+  },
+  {
+    "id": "Zyra",
+    "name": "ザイラ",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/Zyra.png",
+    "isMelee": false
+  }
+]

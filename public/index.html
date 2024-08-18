@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>舞野鯖ARAMチャンプ決めるくん</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>舞野鯖ARAMチャンプ決めるくん</h1>
+        <div class="controls">
+            <select id="championCount">
+                <option value="1">1体</option>
+                <option value="2">2体</option>
+                <option value="3">3体</option>
+                <option value="4">4体</option>
+                <option value="5" selected>5体</option>
+                <option value="6">6体</option>
+                <option value="7">7体</option>
+                <option value="8">8体</option>
+                <option value="9">9体</option>
+                <option value="10">10体</option>
+            </select>
+            <button onclick="selectRandomChampions()">チャンピオンを選択</button>
+            <button id="toggleModeButton" onclick="toggleMode()">近接モード: OFF</button>
+        </div>
+        <div id="result" class="champion-list"></div>
+        <button id="copyButton" onclick="copyAllChampions()" style="display: none;">全チャンピオン名をコピー</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
