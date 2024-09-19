@@ -59,61 +59,6 @@ function toggleMode() {
 }
 
 //9/19 機能追加
-function selectRandomChampions(count = 40) {
-    if (champions.length === 0) {
-        fetchChampions();
-    }
-
-    let availableChampions = [...champions];
-    selectedChampions = [];
-
-    for (let i = 0; i < count && availableChampions.length > 0; i++) {
-        const randomIndex = Math.floor(Math.random() * availableChampions.length);
-        selectedChampions.push(availableChampions[randomIndex]);
-        availableChampions.splice(randomIndex, 1);
-    }
-
-    displayChampions(selectedChampions);
-}
-
-function splitChampionsIntoGroups() {
-    const group1 = selectedChampions.slice(0, 20);
-    const group2 = selectedChampions.slice(20, 40);
-    return [group1, group2];
-}
-
-function copyGroupToClipboard(group, groupNumber) {
-    const text = group.map(champ => champ.name).join(', ');
-    navigator.clipboard.writeText(text).then(() => {
-        alert(`グループ${groupNumber}のチャンピオンをクリップボードにコピーしました。`);
-    }, (err) => {
-        console.error('コピーに失敗しました: ', err);
-    });
-}
-function displayChampions(champions) {
-    const resultDiv = document.getElementById("result");
-    resultDiv.innerHTML = "";
-
-    const groups = [champions.slice(0, 20), champions.slice(20, 40)];
-
-    groups.forEach((group, index) => {
-        const groupDiv = document.createElement("div");
-        groupDiv.className = "champion-group";
-        groupDiv.innerHTML = `<h3>グループ ${index + 1}</h3>`;
-
-        group.forEach(champion => {
-            const championDiv = document.createElement("div");
-            championDiv.className = "champion";
-            championDiv.innerHTML = `
-                <img src="${champion.image}" alt="${champion.name}">
-                <p>${champion.name}</p>
-            `;
-            groupDiv.appendChild(championDiv);
-        });
-
-        resultDiv.appendChild(groupDiv);
-    });
-}
 function selectRandomChampions() {
     const count = parseInt(document.getElementById("championCount").value);
     if (champions.length === 0) {
@@ -134,60 +79,45 @@ function selectRandomChampions() {
     } else {
         displayChampions(selectedChampions);
     }
+
+    // コピーボタンを表示
+    showCopyButtons(count === 40);
 }
 
-function displayChampions(champions) {
-    const resultDiv = document.getElementById("result");
-    resultDiv.innerHTML = "";
+function showCopyButtons(isGrouped) {
+    const copyButtonsContainer = document.getElementById("copyButtonsContainer");
+    copyButtonsContainer.innerHTML = "";
 
-    champions.forEach(champion => {
-        const championDiv = document.createElement("div");
-        championDiv.className = "champion";
-        championDiv.innerHTML = `
-            <img src="${champion.image}" alt="${champion.name}">
-            <p>${champion.name}</p>
+    if (isGrouped) {
+        // 2グループの場合
+        copyButtonsContainer.innerHTML = `
+            <button onclick="copyGroupToClipboard(1)">グループ1をコピー</button>
+            <button onclick="copyGroupToClipboard(2)">グループ2をコピー</button>
         `;
-        resultDiv.appendChild(championDiv);
-    });
-}
-
-function displayChampionsInGroups(champions) {
-    const resultDiv = document.getElementById("result");
-    resultDiv.innerHTML = "";
-
-    const groups = [champions.slice(0, 20), champions.slice(20, 40)];
-
-    groups.forEach((group, index) => {
-        const groupDiv = document.createElement("div");
-        groupDiv.className = "champion-group";
-        groupDiv.innerHTML = `<h3>グループ ${index + 1}</h3>`;
-
-        const championsContainer = document.createElement("div");
-        championsContainer.className = "champions-container";
-
-        group.forEach(champion => {
-            const championDiv = document.createElement("div");
-            championDiv.className = "champion";
-            championDiv.innerHTML = `
-                <img src="${champion.image}" alt="${champion.name}">
-                <p>${champion.name}</p>
-            `;
-            championsContainer.appendChild(championDiv);
-        });
-
-        groupDiv.appendChild(championsContainer);
-        resultDiv.appendChild(groupDiv);
-    });
-}
-function copyGroupToClipboard(groupNumber) {
-    if (selectedChampions.length !== 40) {
-        alert("40体のチャンピオンを選択してください。");
-        return;
+    } else {
+        // 1グループの場合
+        copyButtonsContainer.innerHTML = `
+            <button onclick="copyAllChampions()">全チャンピオン名をコピー</button>
+        `;
     }
-    const group = groupNumber === 1 ? selectedChampions.slice(0, 20) : selectedChampions.slice(20, 40);
+}
+
+function copyAllChampions() {
+    const text = selectedChampions.map(champ => champ.name).join(', ');
+    copyToClipboard(text, "全チャンピオン");
+}
+
+function copyGroupToClipboard(groupNumber) {
+    const startIndex = groupNumber === 1 ? 0 : 20;
+    const endIndex = groupNumber === 1 ? 20 : 40;
+    const group = selectedChampions.slice(startIndex, endIndex);
     const text = group.map(champ => champ.name).join(', ');
+    copyToClipboard(text, `グループ${groupNumber}`);
+}
+
+function copyToClipboard(text, groupName) {
     navigator.clipboard.writeText(text).then(() => {
-        alert(`グループ${groupNumber}のチャンピオンをクリップボードにコピーしました。`);
+        alert(`${groupName}のチャンピオン名をクリップボードにコピーしました。`);
     }, (err) => {
         console.error('コピーに失敗しました: ', err);
     });
