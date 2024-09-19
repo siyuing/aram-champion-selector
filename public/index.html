@@ -35,5 +35,9 @@
         <button id="copyButton" onclick="copyAllChampions()" style="display: none;">全チャンピオン名をコピー</button>
     </div>
     <script src="script.js"></script>
+    <!-- 9/19 機能追加 -->
+    <button onclick="selectRandomChampions(40)">40体のチャンピオンを選択</button>
+    <button onclick="copyGroupToClipboard(splitChampionsIntoGroups()[0], 1)">グループ1をコピー</button>
+    <button onclick="copyGroupToClipboard(splitChampionsIntoGroups()[1], 2)">グループ2をコピー</button>
 </body>
 </html>

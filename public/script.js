@@ -58,5 +58,61 @@ function toggleMode() {
     toggleButton.style.backgroundColor = isMeleeMode ? '#FF4500' : '#008CBA';
 }
 
+//9/19 機能追加
+function selectRandomChampions(count = 40) {
+    if (champions.length === 0) {
+        fetchChampions();
+    }
+
+    let availableChampions = [...champions];
+    selectedChampions = [];
+
+    for (let i = 0; i < count && availableChampions.length > 0; i++) {
+        const randomIndex = Math.floor(Math.random() * availableChampions.length);
+        selectedChampions.push(availableChampions[randomIndex]);
+        availableChampions.splice(randomIndex, 1);
+    }
+
+    displayChampions(selectedChampions);
+}
+
+function splitChampionsIntoGroups() {
+    const group1 = selectedChampions.slice(0, 20);
+    const group2 = selectedChampions.slice(20, 40);
+    return [group1, group2];
+}
+
+function copyGroupToClipboard(group, groupNumber) {
+    const text = group.map(champ => champ.name).join(', ');
+    navigator.clipboard.writeText(text).then(() => {
+        alert(`グループ${groupNumber}のチャンピオンをクリップボードにコピーしました。`);
+    }, (err) => {
+        console.error('コピーに失敗しました: ', err);
+    });
+}
+function displayChampions(champions) {
+    const resultDiv = document.getElementById("result");
+    resultDiv.innerHTML = "";
+
+    const groups = [champions.slice(0, 20), champions.slice(20, 40)];
+
+    groups.forEach((group, index) => {
+        const groupDiv = document.createElement("div");
+        groupDiv.className = "champion-group";
+        groupDiv.innerHTML = `<h3>グループ ${index + 1}</h3>`;
+
+        group.forEach(champion => {
+            const championDiv = document.createElement("div");
+            championDiv.className = "champion";
+            championDiv.innerHTML = `
+                <img src="${champion.image}" alt="${champion.name}">
+                <p>${champion.name}</p>
+            `;
+            groupDiv.appendChild(championDiv);
+        });
+
+        resultDiv.appendChild(groupDiv);
+    });
+}
 // 初期ロード時にチャンピオンデータを取得
 fetchChampions();

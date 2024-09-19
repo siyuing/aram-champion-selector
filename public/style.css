@@ -132,3 +132,13 @@ button, select {
         padding-bottom: 0;
     }
 }
+/* 9/19 機能追加 */
+.champion-group {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.champion-group h3 {
+    margin-top: 0;
+}
