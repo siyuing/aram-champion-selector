@@ -190,7 +190,7 @@ button, select {
 }
 
 button[onclick="selectFortyChampions"] {
-    background-color: #4CAF50;
+    background-color: #ee5b06;
     color: white;
     border: none;
     text-align: center;

@@ -14,10 +14,13 @@ async function fetchChampions() {
 function selectRandomChampions() {
     const count = parseInt(document.getElementById("championCount").value);
     if (champions.length === 0) {
-        fetchChampions();
-        return; // データがまだ読み込まれていない場合は終了
+        fetchChampions().then(() => performChampionSelection(count));
+    } else {
+        performChampionSelection(count);
     }
+}
 
+function performChampionSelection(count) {
     let availableChampions = isMeleeMode ? champions.filter(c => c.isMelee) : [...champions];
     selectedChampions = [];
 
@@ -33,7 +36,6 @@ function selectRandomChampions() {
         displayChampions(selectedChampions);
     }
 
-    // コピーボタンを表示
     showCopyButtons(count === 40);
 }
 
@@ -124,9 +126,11 @@ function toggleMode() {
     toggleButton.textContent = `近接モード: ${isMeleeMode ? 'ON' : 'OFF'}`;
     toggleButton.style.backgroundColor = isMeleeMode ? '#FF4500' : '#008CBA';
 }
+
 function selectFortyChampions() {
     document.getElementById("championCount").value = "40";
     selectRandomChampions();
 }
+
 // 初期ロード時にチャンピオンデータを取得
 fetchChampions();
