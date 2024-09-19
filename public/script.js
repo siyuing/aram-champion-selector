@@ -124,6 +124,9 @@ function toggleMode() {
     toggleButton.textContent = `近接モード: ${isMeleeMode ? 'ON' : 'OFF'}`;
     toggleButton.style.backgroundColor = isMeleeMode ? '#FF4500' : '#008CBA';
 }
-
+function selectFortyChampions() {
+    document.getElementById("championCount").value = "40";
+    selectRandomChampions();
+}
 // 初期ロード時にチャンピオンデータを取得
 fetchChampions();
