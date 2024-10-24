@@ -30,13 +30,13 @@ function performChampionSelection(count) {
         availableChampions.splice(randomIndex, 1);
     }
 
-    if (count === 40) {
-        displayChampionsInGroups(selectedChampions);
+    if (count === 40 || count === 50) {
+        displayChampionsInGroups(selectedChampions, count);
     } else {
         displayChampions(selectedChampions);
     }
 
-    showCopyButtons(count === 40);
+    showCopyButtons(count === 40 || count === 50);
 }
 
 function displayChampions(champions) {
@@ -54,11 +54,12 @@ function displayChampions(champions) {
     });
 }
 
-function displayChampionsInGroups(champions) {
+function displayChampionsInGroups(champions, totalCount) {
     const resultDiv = document.getElementById("result");
     resultDiv.innerHTML = "";
 
-    const groups = [champions.slice(0, 20), champions.slice(20, 40)];
+    const halfCount = Math.ceil(totalCount / 2);
+    const groups = [champions.slice(0, halfCount), champions.slice(halfCount)];
 
     groups.forEach((group, index) => {
         const groupDiv = document.createElement("div");
@@ -82,7 +83,6 @@ function displayChampionsInGroups(champions) {
         resultDiv.appendChild(groupDiv);
     });
 }
-
 function showCopyButtons(isGrouped) {
     const copyButtonsContainer = document.getElementById("copyButtonsContainer");
     copyButtonsContainer.innerHTML = "";
@@ -105,8 +105,10 @@ function copyAllChampions() {
 }
 
 function copyGroupToClipboard(groupNumber) {
-    const startIndex = groupNumber === 1 ? 0 : 20;
-    const endIndex = groupNumber === 1 ? 20 : 40;
+    const totalCount = selectedChampions.length;
+    const halfCount = Math.ceil(totalCount / 2);
+    const startIndex = groupNumber === 1 ? 0 : halfCount;
+    const endIndex = groupNumber === 1 ? halfCount : totalCount;
     const group = selectedChampions.slice(startIndex, endIndex);
     const text = group.map(champ => champ.name).join(', ');
     copyToClipboard(text, `グループ${groupNumber}`);
