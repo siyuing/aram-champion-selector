@@ -131,6 +131,10 @@ function selectFortyChampions() {
     document.getElementById("championCount").value = "40";
     selectRandomChampions();
 }
+function selectFiftyChampions() {
+    document.getElementById("championCount").value = "50";
+    selectRandomChampions();
+}
 
 // 初期ロード時にチャンピオンデータを取得
 fetchChampions();
