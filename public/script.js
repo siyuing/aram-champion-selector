@@ -156,12 +156,13 @@ function displayChampionsInGroups(champions, totalCount) {
         // チャンピオンのコンテナ
         const championsContainer = document.createElement("div");
         championsContainer.className = "champions-container";
+        championsContainer.id = `champions-container-${index + 1}`;
 
         group.forEach(champion => {
             const championDiv = document.createElement("div");
             championDiv.className = "champion";
             championDiv.innerHTML = `
-                <img src="${champion.image}" alt="${champion.name}">
+                <img src="/api/placeholder/80/80" alt="${champion.name}">
                 <p>${champion.name}</p>
             `;
             championsContainer.appendChild(championDiv);
@@ -194,7 +195,9 @@ function displayChampionsInGroups(champions, totalCount) {
 
     // 下部のコピーボタンコンテナを非表示にする
     const copyButtonsContainer = document.getElementById("copyButtonsContainer");
-    copyButtonsContainer.style.display = "none";
+    if (copyButtonsContainer) {
+        copyButtonsContainer.style.display = "none";
+    }
 }
 
 // 画像としてコピーする関数
