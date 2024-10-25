@@ -138,5 +138,93 @@ function selectFiftyChampions() {
     selectRandomChampions();
 }
 
+function displayChampionsInGroups(champions, totalCount) {
+    const resultDiv = document.getElementById("result");
+    resultDiv.innerHTML = "";
+
+    const halfCount = Math.ceil(totalCount / 2);
+    const groups = [champions.slice(0, halfCount), champions.slice(halfCount)];
+
+    groups.forEach((group, index) => {
+        const groupDiv = document.createElement("div");
+        groupDiv.className = "champion-group";
+        groupDiv.id = `group-${index + 1}`;
+        
+        // グループのタイトル
+        groupDiv.innerHTML = `<h3>グループ ${index + 1}</h3>`;
+
+        // チャンピオンのコンテナ
+        const championsContainer = document.createElement("div");
+        championsContainer.className = "champions-container";
+
+        group.forEach(champion => {
+            const championDiv = document.createElement("div");
+            championDiv.className = "champion";
+            championDiv.innerHTML = `
+                <img src="${champion.image}" alt="${champion.name}">
+                <p>${champion.name}</p>
+            `;
+            championsContainer.appendChild(championDiv);
+        });
+
+        groupDiv.appendChild(championsContainer);
+
+        // ボタンコンテナ
+        const buttonContainer = document.createElement("div");
+        buttonContainer.className = "button-container";
+
+        // テキストコピーボタン
+        const copyTextButton = document.createElement("button");
+        copyTextButton.onclick = () => copyGroupToClipboard(index + 1);
+        copyTextButton.textContent = `グループ${index + 1}の名前をコピー`;
+        copyTextButton.className = "copy-button";
+
+        // 画像コピーボタン
+        const copyImageButton = document.createElement("button");
+        copyImageButton.onclick = () => copyGroupAsImage(index + 1);
+        copyImageButton.textContent = `グループ${index + 1}の画像をコピー`;
+        copyImageButton.className = "copy-button image-copy-button";
+
+        buttonContainer.appendChild(copyTextButton);
+        buttonContainer.appendChild(copyImageButton);
+        groupDiv.appendChild(buttonContainer);
+
+        resultDiv.appendChild(groupDiv);
+    });
+
+    // 下部のコピーボタンコンテナを非表示にする
+    const copyButtonsContainer = document.getElementById("copyButtonsContainer");
+    copyButtonsContainer.style.display = "none";
+}
+
+// 画像としてコピーする関数
+async function copyGroupAsImage(groupNumber) {
+    try {
+        const groupElement = document.getElementById(`group-${groupNumber}`);
+        
+        // html2canvas を使用してHTML要素を画像に変換
+        const canvas = await html2canvas(groupElement);
+        
+        // Canvas を blob に変換
+        canvas.toBlob(async (blob) => {
+            try {
+                // Clipboardに画像をコピー
+                await navigator.clipboard.write([
+                    new ClipboardItem({
+                        'image/png': blob
+                    })
+                ]);
+                alert(`グループ${groupNumber}の画像をクリップボードにコピーしました`);
+            } catch (err) {
+                console.error('画像のコピーに失敗しました:', err);
+                alert('画像のコピーに失敗しました');
+            }
+        }, 'image/png');
+    } catch (err) {
+        console.error('画像の生成に失敗しました:', err);
+        alert('画像の生成に失敗しました');
+    }
+}
+
 // 初期ロード時にチャンピオンデータを取得
 fetchChampions();

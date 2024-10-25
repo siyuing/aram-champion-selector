@@ -201,3 +201,36 @@ button[onclick="selectFortyChampions"] {
     cursor: pointer;
     border-radius: 5px;
 }
+/* 10/25 グループコピーボタン調整 */
+.button-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.copy-button {
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.image-copy-button {
+    background-color: #4CAF50;
+}
+
+.copy-button:hover {
+    background-color: #006d8f;
+}
+
+.image-copy-button:hover {
+    background-color: #3d8b40;
+}
