@@ -47,8 +47,11 @@ button, select {
     border-radius: 50%;
 }
 .champion p {
-    margin: 5px 0;
-    font-size: 12px;
+  margin: 5px 0;
+  font-size: 12px;
+  height: 2.5em;
+  line-height: 1.2em;
+  overflow: hidden;
 }
 #copyButton, #toggleModeButton {
     background-color: #008CBA;
