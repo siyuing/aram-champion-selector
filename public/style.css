@@ -321,7 +321,7 @@ button[onclick="selectFortyChampions"] {
   display: flex;
   gap: 10px;
   justify-content: center;
-  align-items: center;
+  align-items: stretch;
   margin-top: 15px;
   flex-wrap: wrap;
 }
@@ -329,4 +329,7 @@ button[onclick="selectFortyChampions"] {
 .copy-button {
   min-width: 160px;
   margin: 5px 0;
+  padding: 12px 20px;
+  height: 100%; /* ← これで上下が揃う */
+  box-sizing: border-box;
 }
