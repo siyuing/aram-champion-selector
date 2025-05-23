@@ -344,3 +344,18 @@ button[onclick="selectFortyChampions"] {
 .champion-group .button-container {
   margin-top: auto;
 }
+
+#result {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;  /* ← 高さを揃える！ */
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.champion-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1 1 48%;
+  box-sizing: border-box;
+}
