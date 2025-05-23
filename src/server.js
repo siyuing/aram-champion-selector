@@ -59,3 +59,24 @@ app.get('/api/champions', async (req, res) => {
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+
+const https = require('https'); // 念のため追記
+
+app.get('/proxy-image/:filename', async (req, res) => {
+  const { filename } = req.params;
+
+  const imageUrl = `https://ddragon.leagueoflegends.com/cdn/14.16.1/img/champion/${filename}`;
+
+  try {
+    https.get(imageUrl, (proxyRes) => {
+      res.setHeader('Content-Type', proxyRes.headers['content-type'] || 'image/png');
+      proxyRes.pipe(res);
+    }).on('error', (err) => {
+      console.error('Image proxy failed:', err);
+      res.status(500).send('Failed to proxy image');
+    });
+  } catch (err) {
+    console.error('Error fetching image:', err);
+    res.status(500).send('Internal server error');
+  }
+});
