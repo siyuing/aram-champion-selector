@@ -162,7 +162,8 @@ function displayChampionsInGroups(champions, totalCount) {
             const championDiv = document.createElement("div");
             championDiv.className = "champion";
             championDiv.innerHTML = `
-                <img src="${champion.image}" alt="${champion.name}">
+           // <img src="${champion.image}" alt="${champion.name}"> から変更
+           <img src="/proxy-image/${champion.id}.png" alt="${champion.name}">
                 <p>${champion.name}</p>
             `;
             championsContainer.appendChild(championDiv);
