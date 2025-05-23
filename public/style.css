@@ -333,3 +333,14 @@ button[onclick="selectFortyChampions"] {
   height: 100%; /* ← これで上下が揃う */
   box-sizing: border-box;
 }
+
+.champion-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.champion-group .button-container {
+  margin-top: auto;
+}
