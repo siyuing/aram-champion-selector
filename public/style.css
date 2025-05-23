@@ -303,3 +303,30 @@ button[onclick="selectFortyChampions"] {
 .image-copy-button:hover {
     background-color: #3d8b40;
 }
+/* グループ表示をバランスよく */
+#result {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.champion-group {
+  flex: 1 1 48%;
+  box-sizing: border-box;
+}
+
+/* ボタンのレイアウト修正 */
+.button-container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  flex-wrap: wrap;
+}
+
+.copy-button {
+  min-width: 160px;
+  margin: 5px 0;
+}
